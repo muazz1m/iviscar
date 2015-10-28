@@ -47,8 +47,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
     .state('carList', {
     url: '/carList',
-    templateUrl: 'templates/carList.html'
-    
+    templateUrl: 'templates/carList.html',
+    controller:'AddCarCtrl'
   })
 
     .state('notification', {
