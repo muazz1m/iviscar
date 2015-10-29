@@ -23,6 +23,12 @@ angular.module('starter.controllers', [])
 		//$scope.hideShow = true;
 		$scope.modalForm.show();
 	}
+
+	$scope.viewCar = function(){
+		$state.go('carDetail');
+		$scope.modalTitle = "Car 1";
+		//$scope.modalForm.show();
+	}
     
     $scope.closeModal = function() {
 		$scope.modalForm.hide();

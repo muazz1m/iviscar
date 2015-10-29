@@ -56,6 +56,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/notification.html'
     
   })
+
+    .state('carDetail', {
+    url: '/carDetail',
+    templateUrl: 'templates/_carDetail.html'
+    
+  })
     
 
   // if none of the above states are matched, use this as the fallback
