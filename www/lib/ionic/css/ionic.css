@@ -3179,9 +3179,15 @@ a.subdued {
     z-index: 1;
     padding: 0 8px;
     min-width: initial;
+<<<<<<< HEAD
     min-height: 40px;
     font-weight: 400;
     font-size: 20px;
+=======
+    min-height: 31px;
+    font-weight: 400;
+    font-size: 13px;
+>>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
     line-height: 32px; }
     .bar .button.button-icon:before, .bar .button .icon:before, .bar .button.icon:before, .bar .button.icon-left:before, .bar .button.icon-right:before {
       padding-right: 2px;
@@ -5327,7 +5333,11 @@ a.item-content {
  */
 .card, .list-inset {
   overflow: hidden;
+<<<<<<< HEAD
   margin: 5px 10px;
+=======
+  margin: 20px 10px;
+>>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
   border-radius: 2px;
   background-color: #fff; }
 
@@ -5367,7 +5377,11 @@ a.item-content {
   margin-right: 0;
   margin-left: 0; }
   .card .item.item-input input, .list-inset .item.item-input input, .padding > .list .item.item-input input, .padding-horizontal > .list .item.item-input input {
+<<<<<<< HEAD
     padding-right: 10px; }
+=======
+    padding-right: 44px; }
+>>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
 
 .padding-left > .list .item {
   margin-left: 0; }
@@ -7014,7 +7028,11 @@ a.button {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   /*padding: 5px;*/
+=======
+  padding: 5px;
+>>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
   width: 100%; }
 
 .row-wrap {
@@ -7376,7 +7394,11 @@ a.button {
  * --------------------------------------------------
  */
 .padding {
+<<<<<<< HEAD
   padding: 5px 10px; }
+=======
+  padding: 10px; }
+>>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
 
 .padding-top, .padding-vertical {
   padding-top: 10px; }

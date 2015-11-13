@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 angular.module('starter.services',  [])
 
 .factory('FirebaseService', function(){
@@ -115,3 +116,6 @@ angular.module('starter.services',  [])
     }
   }
 }])
+=======
+angular.module('starter.services', [])
+>>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
