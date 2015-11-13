@@ -1,0 +1,28 @@
+<div class="modal" title="">
+	<ion-header-bar class="bar bar-stable">
+      <button class="button button-icon icon ion-android-close font-custom" ng-click="closeModal()"></button>
+      <h1 class="title font-custom">{{modalTitle}}</h1>
+    </ion-header-bar>
+    <ion-content class="padding bg-custom">
+    	<form ng-submit="createCar(car)">
+			<div class="list">
+				<label class="item item-input">
+					<input type="text" placeholder="Car Name" ng-model="car.name"/>
+				</label>
+				<label class="item item-input item-select">
+					<div class="input-label">
+				      Transition
+				    </div>
+					<select ng-model="car.trans">
+				      <option selected value="Auto">Auto</option>
+				      <option value="Manual">Manual</option>
+
+				    </select>
+				</label>
+			</div>
+			<div class="padding">
+				<button type="submit" class="button color-custom2 font-custom2 title button-block" ng-click="closeModal()">Save Car</button>
+			</div>
+		</form>
+  	</ion-content>
+</div>

@@ -1,0 +1,36 @@
+<ion-view view-title="Register Page">
+	<ion-content>
+			<div class="row">
+				<div class="col col-10"></div>
+				<div class="col col-80 col-center">
+					<img src="img/iviscar.png" style="width:100%" />
+				</div>
+				<div class="col col-10"></div>
+			</div>
+			<div class="list list-inset">
+				<label class="item item-input">
+					<input type="text" placeholder="Username" ng-model="username" />
+				</label>
+				<label class="item item-input">
+				    <input type="text" placeholder="Phone Number" ng-model="pNumber" />
+				</label>
+				<label class="item item-input item-select">
+					<div class="input-label">
+		    		  Type of user
+		    		</div>
+					<select ng-model="type_opt">
+		      			<option selected value="1">Car Owner</option>
+		      			<option value="2">Car Renter</option>
+		    		</select>
+				</label>
+			</div>
+			<div class="padding">
+				<a class="button button-block btn-ivis1" ng-click="login(username,pNumber, type_opt)">
+					<i class="icon ion-person">Sign In</i></a>
+			</div>
+			<div class="padding">
+				<a class="button button-block btn-ivis2" ng-click="register(username,pNumber, type_opt)">
+					<i class="icon ion-person">Sign Up</i></a>
+			</div>
+	</ion-content>
+</ion-view>

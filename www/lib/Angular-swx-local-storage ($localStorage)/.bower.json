@@ -1,0 +1,60 @@
+{
+  "name": "Angular-swx-local-storage ($localStorage)",
+  "version": "0.0.8",
+  "authors": [
+    "Paul Massey, paul.massey@scriptwerx.io, http://www.scriptwerx.io"
+  ],
+  "description": "Provides a key-value (string-object) storage, that is backed by localStorage with support for expiry (in days).",
+  "keywords": [
+    "AngularJS",
+    "Angular",
+    "Angular Local Storage",
+    "$localStorage",
+    "Angular Storage",
+    "Local Storage",
+    "JavaScript",
+    "Component",
+    "Components",
+    "Scriptwerx",
+    "Genoveus"
+  ],
+  "license": "http://opensource.org/licenses/MIT",
+  "homepage": "https://github.com/scriptwerx/angular-swx-local-storage",
+  "ignore": [
+    ".jshintrc",
+    ".travis.yml",
+    ".gitignore",
+    "package.json",
+    "gulpfile.js",
+    "angular-swx-local-storage.iml",
+    "**/*.md",
+    "bin",
+    "docs",
+    "src",
+    "lib",
+    "test",
+    "node_modules",
+    "bower_components"
+  ],
+  "main": [
+    "./release/swx-local-storage.js",
+    "./release/swx-local-storage.min.js",
+    "./release/swx-local-storage.min.js.map"
+  ],
+  "dependencies": {
+    "angular": ">=1 <1.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1 <1.4.0"
+  },
+  "_release": "0.0.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.8",
+    "commit": "7d881a4eb340a13ef45abaca7bda43911ef39d5c"
+  },
+  "_source": "git://github.com/scriptwerx/angular-swx-local-storage.git",
+  "_target": "~0.0.8",
+  "_originalSource": "angular-swx-local-storage",
+  "_direct": true
+}

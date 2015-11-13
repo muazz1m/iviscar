@@ -1,0 +1,20 @@
+<ion-view view-title="Car List" ng-init="list()">
+  <ion-nav-buttons class="bar color-custom" side="right">
+      <button class="button button-icon icon ion-android-add font-custom" ng-hide="add" ng-click="addCar()"></button>
+    </ion-nav-buttons>
+  <ion-content class="bg-custom">
+      <ion-list show-delete="false" can-swipe="true" ng-repeat="(key, car) in carlist">
+        <ion-item ng-click="viewCarDetail(key)" class="item item-icon-left item-icon-right">
+          <h2 style="text-transform:uppercase">{{car.car_name}}</h2>
+          <p>{{car.car_transition}}</p>
+          <ion-option-button class="button-energized" ng-hide="hide" ng-click="editCar(car)">
+            <i class="icon ion-edit"></i>
+          </ion-option-button>
+          <ion-option-button class="button-assertive" ng-hide="hide2" ng-click="removeCar(key)">
+            <i class="icon ion-android-delete"></i>
+          </ion-option-button>
+        </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>
+    

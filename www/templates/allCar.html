@@ -1,0 +1,14 @@
+<ion-view view-title="Car List" ng-init="listAll()">
+  <ion-header-bar class="bar color-custom">
+      <h1 class="title font-custom">Car List</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list show-delete="false" can-swipe="true" ng-repeat="(key, car) in list">
+        <ion-item ng-click="viewCarDetail(key)" class="item item-icon-left item-icon-right">
+          <h2 style="text-transform:uppercase">{{car.car_name}}</h2>
+          <p>{{car.car_transition}}</p>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+</ion-view>
+    

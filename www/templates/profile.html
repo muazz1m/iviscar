@@ -1,0 +1,30 @@
+<ion-view view-title="Profile Page" ng-init="userProfile()">
+    <br>
+    <ion-content class="bg-custom padding">
+      <div class="profile-picture">
+        <!-- <img src="{{user.icon}}"> -->
+        <img src="img/penguen.png">
+        <button class="button border2">
+        <i class="icon ion-android-camera"></i>
+      </button>
+      </div>
+      
+      <br>
+      <div class="list card">
+
+        <div class="item item-button-right">
+          <h2 style="text-transform:uppercase">{{username}}</h2>
+          <button class="button button-clear icon ion-edit">
+          </button>
+        </div>
+
+        <div class="item item-button-right">
+          <p>{{pNumber}}</p>
+          <button class="button button-clear icon ion-edit">
+          </button>
+        </div>
+
+      </div>
+    </ion-content>
+    </div>
+</ion-view>
