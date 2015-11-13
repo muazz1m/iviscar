@@ -1,6 +1,5 @@
 angular.module('starter.controllers', [])
 
-<<<<<<< HEAD
 .controller('ProfileCtrl', function($state, $scope, UserService, FirebaseService, $localstorage){
 
 	var fb = FirebaseService.getAuth();
@@ -46,18 +45,6 @@ angular.module('starter.controllers', [])
 })
 .controller('AddCarCtrl', function(FirebaseService, $firebaseAuth, $firebaseObject, $ionicModal,$scope,$state,$localstorage, UserService) {
 	var fb = FirebaseService.getAuth();
-=======
-.controller('ProfileCtrl', function($scope,$state) {
-
-  $scope.logIn = function(){
-    $state.go('carList');
-  }
-    
-})
-
-.controller('AddCarCtrl', function($ionicModal,$scope,$state) {
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
-
   $ionicModal.fromTemplateUrl('templates/_carForm.html', function(modal) {
 		$scope.modalForm = modal;
 	},{
@@ -65,7 +52,7 @@ angular.module('starter.controllers', [])
 		animation: 'slide-in-up'
 	});
 
-<<<<<<< HEAD
+
   $ionicModal.fromTemplateUrl('templates/_carDetail.html', function(modal) {
 		$scope.modalForm2 = modal;
 	},{
@@ -73,16 +60,13 @@ angular.module('starter.controllers', [])
 		animation: 'slide-in-up'
 	});
 
-=======
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
-  	$scope.addCar = function(){
+$scope.addCar = function(){
 		//$scope.todo = "";
 		$scope.modalTitle = "Add New Car";
 		//$scope.hideShow = true;
 		$scope.modalForm.show();
 	}
 
-<<<<<<< HEAD
 	$scope.createCar = function(car) {
 
 		$scope.car = {};
@@ -175,17 +159,10 @@ angular.module('starter.controllers', [])
 			$scope.modalTitle = "CAR DETAIL";
 			$scope.modalForm.show();
 		}
-=======
-	$scope.viewCar = function(){
-		$state.go('carDetail');
-		$scope.modalTitle = "Car 1";
-		//$scope.modalForm.show();
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
 	}
     
     $scope.closeModal = function() {
 		$scope.modalForm.hide();
-<<<<<<< HEAD
 		$scope.modalForm2.hide();
 	}
 
@@ -573,9 +550,3 @@ else{
     });
   }
   });*/
-=======
-	}
-})
-
-
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed

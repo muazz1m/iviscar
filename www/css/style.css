@@ -11,7 +11,6 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-<<<<<<< HEAD
   margin: 10px auto 0 auto;
   width: 300px;
   height: 300px;
@@ -40,30 +39,15 @@
   min-width: 100%;
   min-height: 100%;
   width: 300px;
-=======
-  margin: 0 auto;
-  width: 128px;
-  height: 128px;
-  overflow: hidden;
-}
-
-.profile-picture img {
-  width: 128px;
-  border-radius: 100%;
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
 }
 
 .profile-name {
   padding-top: 20px;
   font-size: x-large !important;
   font-weight: bold !important;
-<<<<<<< HEAD
   padding: 15px;
   margin: 10px auto;
   text-transform: uppercase;
-=======
-  text-transform: capitalize;
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
 }
 
 
@@ -104,7 +88,6 @@
 
 .color-custom{
 	background-color: #003552;
-<<<<<<< HEAD
   color: #fff;
 }
 
@@ -176,19 +159,4 @@
 
 .two-button{
   margin: -15px 0;
-=======
-
-}
-.color-custom2{
-  background-color: #00d632;
-
-}
-
-.font-custom{
-	color: #00d632;
-}
-
-.font-custom2{
-  color: #003552;
->>>>>>> 11e63baf6ee969970e0e78523461921627db5bed
 }
